@@ -1,0 +1,6 @@
+#FileLock
+#Mon Jul 11 15:32:23 CST 2022
+hostName=junxiang
+id=181ec2c6c3bead6dc14a93277e6841aea422fc25fc4
+method=file
+server=192.168.0.102\:61820

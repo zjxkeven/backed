@@ -1,0 +1,15 @@
+2022-07-11 09:08:19 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM TB_USER BOOK BOOK[*]"; SQL statement:
+SELECT * FROM TB_USER BOOK BOOK [42000-200]
+2022-07-11 09:11:36 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO BOOK(TITLE,AUTHOR,PUBLICATIONTIME) VALUES
+('算法1','郑军祥','2022-7-11'),('算法2','郑军祥','2022-7-11')[*]；"; SQL statement:
+INSERT INTO book(title,author,publicationtime) VALUES
+('算法1','郑军祥','2022-7-11'),('算法2','郑军祥','2022-7-11')； [42000-200]
+2022-07-11 09:13:05 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INTO BOOK(TITLE,AUTHOR,PUBLICATIONTIME) VALUES
+('算法3','郑军祥','2022-7-11'),('算法4','郑军祥','2022-7-11'),('算法4','郑军祥','2022-7-11'),('算法4','郑军祥','2022-7-11'),('算法4','郑军祥','2022-7-11'),('算法4','郑军祥','2022-7-11'),('算法4','郑军祥','2022-7-11'),
+,[*]('算法5','郑军祥','2022-7-11'),('算法6','郑军祥','2022-7-11'),('算法7','郑军祥','2022-7-11'),('算法8','郑军祥','2022-7-11'),('算法9','郑军祥','2022-7-11'),('算法10','郑军祥','2022-7-11'),('算法11','郑军祥','2022-7-11')"; expected "ROW, (, DEFAULT, NOT, EXISTS, INTERSECTS, UNIQUE"; SQL statement:
+INSERT INTO book(title,author,publicationtime) VALUES
+('算法3','郑军祥','2022-7-11'),('算法4','郑军祥','2022-7-11'),('算法4','郑军祥','2022-7-11'),('算法4','郑军祥','2022-7-11'),('算法4','郑军祥','2022-7-11'),('算法4','郑军祥','2022-7-11'),('算法4','郑军祥','2022-7-11'),
+,('算法5','郑军祥','2022-7-11'),('算法6','郑军祥','2022-7-11'),('算法7','郑军祥','2022-7-11'),('算法8','郑军祥','2022-7-11'),('算法9','郑军祥','2022-7-11'),('算法10','郑军祥','2022-7-11'),('算法11','郑军祥','2022-7-11') [42001-200]
